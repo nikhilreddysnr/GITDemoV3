@@ -59,7 +59,7 @@ import java.util.Base64;
 
 		 public static void main(String[] args) throws Exception {
 		        // Generate a key pair (public key and private key)
-		        KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("jfkdffnrdfvfdgk");
+		        KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
 		        keyPairGenerator.initialize(2048); // Key size
 		        KeyPair keyPair = keyPairGenerator.generateKeyPair();
 		        PublicKey publicKey = keyPair.getPublic();
